@@ -5,8 +5,12 @@ module.exports = {
   solidity: "0.8.4",
   networks: {
     rinkeby: {
-      url: process.env.RINKEBY_URL,
-      accounts: [process.env.PRIVATE_KEY]
-    }
+      url: process.env.RINKEBY_ALCHEMY_HTTPS_KEY,
+      accounts: [process.env.MINTER_PRIVATE_KEY]
+    },
+    goerli: {
+      url: process.env.GOERLI_ALCHEMY_HTTPS_KEY,
+      accounts: [process.env.MINTER_PRIVATE_KEY]
+    },
   }
 };

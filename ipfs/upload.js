@@ -2,21 +2,24 @@ const { create } = require("ipfs-http-client");
 
 const ipfs = create("https://ipfs.infura.io:5001");
 
+// we added two attributes, add as many as you want!
 async function run() {
   const files = [{
     path: '/',
     content: JSON.stringify({
-      name: "Dalek",
+      name: "A Bored Ape On Testnet",
       attributes: [
         {
-          "trait_type": "Extermination",
-          "value": "Extremely High"
+          "trait_type": "Bored",
+          "value": "100"
+        },
+        {
+          "trait_type": "Leopard",
+          "value": "100"
         }
       ],
-      // if you want to upload your own IPFS image, you can do so here:
-      // https://github.com/ChainShot/IPFS-Upload
-      image: "https://gateway.ipfs.io/ipfs/Qmd3n8SVGhs1WRYg7mYnddyZmMhhdks6ag5PQGp1xLUE3g",
-      description: "Exterminates all the Humans!"
+      image: "https://gateway.pinata.cloud/ipfs/QmYxT4LnK8sqLupjbS6eRvu1si7Ly2wFQAqFebxhWntcf6/",
+      description: "Tongue is out! Leopard is on!"
     })
   }];
 
