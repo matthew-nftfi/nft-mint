@@ -33,7 +33,7 @@ Update the tokenURI. Either with an already-uploaded IPS gateway URI, or the gat
 #### Already-uploaded TokenURIs:
 1. https://gateway.ipfs.io/ipfs/Qmcz7eFQV3rJKhdAcNAmuMU1WFd3ncZbGkmJNAn5qQap5i"; // Dalek
 2. "https://gateway.ipfs.io/ipfs/QmcnG9VcMuumREednndN28LjzvPjHPDwh2s7nYW9ynckPk"; // Leopard Ape
-3. <More coming soon>
+3. [More coming soon]
 
 ## 3. Run
 Once customized, 
